@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
 <main>
+    <h1>Morse Translate</h1>
+    <h3>Welcome to Morse Translator. Use our Morse Clicker, or use the Morse to English or English to Morse translators</h3>
+    <h1>Morse Clicker</h1>
+    <h1>Rules</h1>
+    <h3>The length of your button click will dictate your input</h3>
+    <h3>0.25 of a second = Dot</h3>
+    <h3>0.75 of a second = Dash</h3>
+    <h3>Mouse into the orange box = Denotes next character</h3>
+    <h3>2 seconds = Denotes new word</h3>
+    <div class="container">
+    <button id="morse-clicker">Morse Clicker</button>
+    </div>
+    <label for="morse-clicker-input">Input:</label>
+    <input type="text" id="morse-clicker-input" disabled size="75">
+    <br>
+    <br>
+    <label for="morse-clicker-output">Output:</label>
+    <input type="text" id="morse-clicker-output" disabled size="75">
     <form>
     <h1>English to Morse Converter</h1>
     <label for="english-input">Input:</label>
@@ -20,7 +38,7 @@
     <input type="text" id="morse-output" disabled size="75">
     <br>
     <br>
-    <h1>Morse to English</h1>
+    <h1>Morse to English Converter</h1>
     <label for="morse-input">Input:</label>
     <br>
     <input type="text" id="morse-input" size="75">
